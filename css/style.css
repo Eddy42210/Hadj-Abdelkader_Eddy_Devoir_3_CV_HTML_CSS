@@ -38,7 +38,7 @@ header {
     padding: 30px;
 }
 
-li {
+li{
     list-style-type: none;
 
 }
@@ -68,5 +68,52 @@ header img {
     width: auto;
     float: left;
     margin-right: 10px;
+    
 
+}
+.permis{
+    position: relative;
+    right: 70px;
+}
+#telephone{
+   position: relative;
+   right: 37px;
+}
+.langages , .langues{
+    line-height: 40px;
+    font-weight: bold;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.langues{
+    line-height: 20px;
+}
+main h2 {
+    margin: 50px;
+    color: #17abb3;
+}
+.personnalite {
+        display: block;
+        background-color: #f5f5f5;
+        width: 35%;
+        padding: 1px 10px 0px 5px;
+}
+.langages img {
+  float: right;
+
+    
+}
+.parler {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: -20px;
+    font-weight: normal;
+}
+.qualites img {
+    width: 10px;
+   margin: 0px 10px;
+}
+.qualites {
+    line-height: 40px;
 }
