@@ -28,9 +28,9 @@ body {
     width: 200px;
 }
 
-header {
+header , footer{
     background-color: #17abb3;
-    height: 300px;
+    height: auto;
     width: 100%;
 }
 
@@ -100,7 +100,7 @@ main h2 {
         width: 30%;
         float: left;
         height: 100%;
-        padding: 50px 20px 0px 0px;
+        padding: 50px 20px 84px 0px;
         margin-right: 50px;
         
 }
@@ -130,4 +130,50 @@ main h2 {
     width: 1060px;
     background-color: #ffffff;
     padding: 50px;
+
+}
+.profil {
+    text-indent: 1.5em;
+    text-align: justify;
+}
+.annee {
+    display: flex;
+    justify-content: end;
+    position: relative;
+    bottom: 35px;
+}
+div { 
+    margin-left: 370px;
+    line-height: 5px;  
+}
+.titre {
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+.lieu {
+    font-style: italic;
+    position: relative;
+    top: 10px;
+}
+div:hover {
+    background-color: #f5f5f5;
+    border-left: 5px solid #17abb3;
+}
+.annee {
+    color: #17abb3;
+    font-style: italic;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 40px;
+}
+.maj {
+    text-align: center;
+    padding-bottom: 40px;
+   font-style: italic;
+   font-size: small;
+   color: #ffffff;
 }
