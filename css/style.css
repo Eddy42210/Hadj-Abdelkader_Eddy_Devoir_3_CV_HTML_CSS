@@ -5,10 +5,10 @@
     src: local ("Raleway");
     url: ('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 }
-html{
+html {
     background-color: #f5f5f5;
 }
-h1 , h2  {
+h1 , h2 {
     font-family: "Lato", sans-serif;
 }
 body {
@@ -16,9 +16,7 @@ body {
     max-width: 1160px;
     margin: auto;
     font-family: "Raleway", sans-serif;
-
 }
-
 .main-photo :hover {
     cursor: zoom-in;
 }
@@ -30,156 +28,50 @@ body {
     height: 200px;
     width: 200px;
 }
-
-header , footer{
+header , footer {
     background-color: #17abb3;
     height: auto;
     width: 100%;
 }
-
 .coordonnees {
     text-align: center;
     color: #ffffff;
     padding: 30px;
 }
-
-li{
+li {
     list-style-type: none;
-
 }
-
 a {
     text-decoration: none;
     color: #ffffff;
 }
-
 h1 {
     font-size: xx-large;
 }
-
 .contact {
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 10px;
 }
-
 header li {
     padding: 10px;
 }
-
 header img {
     height: 20px;
     width: auto;
     float: left;
     margin-right: 10px;
-    
-
-}
-.permis{
-    position: relative;
-    right: 70px;
-}
-#telephone{
-   position: relative;
-   right: 37px;
-}
-.langages , .langues{
-    line-height: 40px;
-    font-weight: bold;
-    margin: 10px;
-    padding-bottom: 20px;
-}
-.langues{
-    line-height: 20px;
 }
 main h2 {
     margin: 50px;
     color: #17abb3;
 }
-.personnalite {
-        display: block;
-        background-color: #f5f5f5;
-        width: 30%;
-        float: left;
-        height: 100%;
-        padding: 50px 20px 138px 0px;
-        margin-right: 50px;
-        
-}
-.langages img {
-  float: right;
-  position: relative;
-  top: 12px;
-
-    
-}
-.parler {
-    display: flex;
-    flex-direction: row-reverse;
+.permis {
     position: relative;
-    top: -20px;
-    font-weight: normal;
+    right: 70px;
 }
-.qualites img , .interet img{
-    width: 10px;
-   margin: 0px 10px;
-}
-.qualites , .interet{
-    line-height: 30px;
-}
-.parcours {
-    display: block;
-    width: 1060px;
-    background-color: #ffffff;
-    padding: 50px;
-
-}
-.profil {
-    text-indent: 1.5em;
-    text-align: justify;
-}
-.annee {
-    display: flex;
-    justify-content: end;
+#telephone {
     position: relative;
-    bottom: 35px;
-}
-div { 
-    margin-left: 370px;
-    line-height: 5px;  
-}
-.titre {
-    font-weight: bold;
-    position: relative;
-    top: 10px;
-}
-.lieu {
-    font-style: italic;
-    position: relative;
-    top: 10px;
-}
-div:hover {
-    background-color: #f5f5f5;
-    border-left: 5px solid #17abb3;
-}
-.annee {
-    color: #17abb3;
-    font-style: italic;
-}
-footer { padding-top: 10px;}
-.social {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.maj {
-    text-align: center;
-    padding-bottom: 20px;
-   font-style: italic;
-   font-size: small;
-   color: #ffffff;
-}
-.social :hover {
-    opacity: 0.8;
+    right: 37px;
 }

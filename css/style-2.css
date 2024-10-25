@@ -1,0 +1,37 @@
+.langages , .langues {
+    line-height: 40px;
+    font-weight: bold;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+.langues {
+    line-height: 20px;
+}
+.personnalite {
+    display: block;
+    background-color: #f5f5f5;
+    width: 30%;
+    float: left;
+    height: 100%;
+    padding: 50px 20px 138px 0px;
+    margin-right: 50px;
+}
+.langages img {
+    float: right;
+    position: relative;
+    top: 12px;
+}
+.parler {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    top: -20px;
+    font-weight: normal;
+}
+.qualites img , .interet img {
+    width: 10px;
+    margin: 0px 10px;
+}
+.qualites , .interet {
+    line-height: 30px;
+}
