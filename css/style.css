@@ -5,7 +5,10 @@
   font-family: "Raleway", sans-serif;
   font-style: normal;
 }
-
+nav {
+    margin: -20px 0px -20px 450px;
+    
+}
 
 html {
     background-color: #f5f5f5;
@@ -51,15 +54,17 @@ a {
 h1 {
     font-size: xx-large;
 }
-.contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
+table {
+     margin: 50px 50px;
+     
 }
-header li {
-    padding: 10px;
+td {
+   padding: 10px;
 }
+.une {
+    padding-top: 13px;
+}
+
 header img {
     height: 20px;
     width: auto;
@@ -70,10 +75,7 @@ main h2 {
     margin: 50px;
     color: #17abb3;
 }
-.permis {
-    position: relative;
-    right: 70px;
-}
+
 #telephone {
     position: relative;
     right: 37px;
