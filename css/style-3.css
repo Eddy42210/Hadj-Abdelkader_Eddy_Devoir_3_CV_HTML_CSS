@@ -3,48 +3,58 @@
     width: 1060px;
     background-color: #ffffff;
     padding: 50px;
-    
+
 }
+
 .profil {
     text-indent: 1.5em;
     text-align: justify;
 }
+
 .annee {
     display: flex;
     justify-content: end;
     position: relative;
     bottom: 35px;
 }
+
 .parcours div {
     margin-left: 370px;
     line-height: 5px;
 }
+
 .titre {
     font-weight: bold;
     position: relative;
     top: 10px;
 }
+
 .lieu {
     font-style: italic;
     position: relative;
     top: 10px;
 }
+
 .parcours div:hover {
     background-color: #f5f5f5;
     border-left: 5px solid #17abb3;
 }
+
 .annee {
     color: #17abb3;
     font-style: italic;
 }
+
 footer {
     padding-top: 10px;
 }
+
 .social {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
 .maj {
     text-align: center;
     padding-bottom: 20px;
@@ -52,6 +62,7 @@ footer {
     font-size: small;
     color: #ffffff;
 }
+
 .social :hover {
     opacity: 0.8;
 }

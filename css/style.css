@@ -2,29 +2,35 @@
 
 .raleway-uniquifier {
 
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
 }
+
 nav {
     margin: -20px 0px -20px 450px;
-    
+
 }
 
 html {
     background-color: #f5f5f5;
 }
-h1 , h2 {
+
+h1,
+h2 {
     font-family: "Lato", sans-serif;
 }
+
 body {
     height: 100%;
     max-width: 1160px;
     margin: auto;
     font-family: "Raleway", sans-serif;
 }
+
 .main-photo :hover {
     cursor: zoom-in;
 }
+
 .main-photo img {
     float: left;
     border: 5px solid #ffffff;
@@ -33,7 +39,9 @@ body {
     height: 200px;
     width: 200px;
 }
-header , footer {
+
+header,
+footer {
     background-color: #17abb3;
     height: auto;
     width: 100%;
@@ -44,25 +52,34 @@ header , footer {
     color: #ffffff;
     padding: 30px;
 }
+
 li {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
     color: #ffffff;
 }
+
 h1 {
     font-size: xx-large;
 }
+
 table {
-     margin: 50px 50px;
-     
+    margin: 50px 50px;
+    
 }
+
 td {
-   padding: 10px;
+    padding: 10px;
 }
+
 .une {
-    padding-top: 13px;
+    padding-top: 15px;
+}
+.deux { 
+    text-align: start;
 }
 
 header img {
@@ -71,6 +88,7 @@ header img {
     float: left;
     margin-right: 10px;
 }
+
 main h2 {
     margin: 50px;
     color: #17abb3;
